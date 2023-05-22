@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+.container{
+    height: 100vh;
+    
+}
+/*HEADER*/
+#header{
+    margin: 0px;
+    padding: 0px;
+    height: 10%;
+    width: 100%;
+    border: 1px solid red;
+    color: white;
+}
+#home{
+    height: 100%;
+    text-align: center;
+    padding-top: 0.5%;
+}
+#home img{
+    height: 60%;
+}
+#home img:hover{
+    border: 1px solid white;
+    transition: all 0.8s ease;
+}
+#tittle{
+    padding: 1%;
+    text-align: center;
+}
+#accesos{
+    text-align: right;
+    padding: 1%;
+    
+}
+#accesos button{
+    font-size: smaller;
+}
+
+/*My chart*/
+#grafica{
+    padding: 1%;
+}
+#chartCont{
+    width: 10%px;
+    height: 10%px;
+    background-color: white;
+}
+button:hover{
+    transition: all 0.7s ease;
+}

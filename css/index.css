@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+body{
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header{
+    text-align: center;
+    
+    color: white;
+    height: 5em;
+    padding-top: 0.5em;
+    border: 1px solid red;
+    box-shadow: 1px 5px 20px red; 
+}
+
+
+.tarjeta{
+    background-color: black;
+    margin-top: 10%;
+    height: 14em;   
+}
+.tarejtaHead{
+    background-color: rgb(8, 8, 8);
+    color: rgb(210, 208, 208);  
+    text-align: center;
+
+}
+#cuerpo{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#tarjh1{
+    border-bottom: 1px solid rgb(246, 243, 243);
+}
+#tarj1:hover{
+    box-shadow: 1px 5px 20px rgb(210, 208, 208); 
+}
+#tarjh2{
+    border-bottom: 1px solid rgb(44, 123, 249);
+}
+#tarj2:hover{
+    box-shadow: 1px 5px 20px rgb(44, 123, 249); 
+}
+#tarjh3{
+    border-bottom: 1px solid rgb(254, 39, 39);
+}
+#tarj3:hover{
+    box-shadow: 1px 5px 20px rgb(254, 39, 39); 
+}
+#tarjh4{
+    border-bottom: 1px solid rgb(10, 205, 85);
+    padding-top: 20px;
+    padding-bottom: 18px;
+}
+#tarj4:hover{
+    box-shadow: 1px 5px 20px rgb(10, 205, 85); 
+}
+
+.card-body{
+    text-align: center;
+}
+.tarjimg{
+    height: 100px;
+    width: 100%;
+}
