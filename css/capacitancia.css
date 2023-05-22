@@ -1,0 +1,76 @@
+/*HEADER*/
+#header{
+    margin: 0px;
+    padding: 0px;
+    height: 10%;
+    width: 100%;
+    border: 1px solid rgb(0, 60, 255);
+    color: white;
+}
+#home{
+    height: 100%;
+    text-align: center;
+    padding-top: 0.5%;
+}
+#home img{
+    height: 60%;
+}
+#home img:hover{
+    border: 1px solid white;
+    transition: all 0.8s ease;
+}
+#tittle{
+    text-align: center;
+    padding: 1%;
+}
+#accesos{
+    text-align: right;
+    padding: 1%;
+    
+}
+#accesos button{
+    font-size: smaller;
+}
+/*FIN HEADER*/
+
+
+
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header{
+    text-align: center;
+}
+.texto{
+    text-align: justify;
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+img{
+    width: 100%;
+}
+
+.contenido{
+    padding-top: 5em;
+}
+
+.separacionTablas{
+    margin-top: 3em;
+}
+.resultado{
+    color: aqua;
+}
+
+.formulario{
+width: 100%;
+}
+
+.formula{
+    width: 50%;
+}
