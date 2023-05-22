@@ -13,7 +13,8 @@
     padding-top: 0.5%;
 }
 #home img{
-    height: 60%;
+    height: 50px;
+    width: 50px;
 }
 #home img:hover{
     border: 1px solid white;

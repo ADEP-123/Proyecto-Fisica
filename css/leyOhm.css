@@ -13,7 +13,7 @@ body{
     padding: 0px;
     height: 10%;
     width: 100%;
-    border: 1px solid red;
+    border: 1px solid rgb(200, 185, 185);
     color: white;
 }
 #home{
@@ -22,7 +22,8 @@ body{
     padding-top: 0.5%;
 }
 #home img{
-    height: 60%;
+    height: 50px;
+    width: 50px;
 }
 #home img:hover{
     border: 1px solid white;
@@ -40,6 +41,7 @@ body{
 #accesos button{
     font-size: smaller;
 }
+
 
 /*My chart*/
 #grafica{
