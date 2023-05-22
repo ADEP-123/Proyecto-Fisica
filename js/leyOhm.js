@@ -32,6 +32,32 @@ function ordenar(vector) {
       }
   }
 }
+function calculardirecto(){
+  const enviar = document.getElementById("calcular2");
+  enviar.addEventListener("click", (z) => {
+    z.preventDefault();
+    z.stopPropagation();
+    const dato1 = Number(document.getElementById("dato1").value);
+    const dato2 = Number(document.getElementById("dato2").value);
+    let result;
+    switch (valor.value) {
+      case "1":
+        result = dato1 / dato2;
+        document.getElementById("resultado").innerHTML = `Resistencia: ${result}`
+        break;
+
+      case "2":
+        result = dato1 / dato2;
+        document.getElementById("resultado").innerHTML = `Corriente: ${result}`
+        break;
+
+      case "3":
+        result = dato1 * dato2;
+        document.getElementById("resultado").innerHTML = `Voltaje: ${result}`
+        break;
+    }
+  });
+}
 const valor = document.getElementById("value");
 const tipo = document.getElementById("tipo");
 const datSec = document.getElementById("datsec");
@@ -69,6 +95,7 @@ valor.addEventListener("click", (e) => {
     <button type="button" class="btn btn-outline-light" id="calcular2">Calcular</button>
     <h1 id="resultado">Voltaje:</h1>
 `;
+    calculardirecto()
   } else {
     tipo.setAttribute("disabled", "true");
     tipo.value = "1";
@@ -189,29 +216,6 @@ tipo.addEventListener("click", (e) => {
     <h1 id="resultado">Corriente:</h1>
 `;
     }
-    const enviar = document.getElementById("calcular2");
-    enviar.addEventListener("click", (z) => {
-      z.preventDefault();
-      z.stopPropagation();
-      const dato1 = Number(document.getElementById("dato1").value);
-      const dato2 = Number(document.getElementById("dato2").value);
-      let result;
-      switch (valor.value) {
-        case "1":
-          result = dato1 / dato2;
-          document.getElementById("resultado").innerHTML = `Resistencia: ${result}`
-          break;
-
-        case "2":
-          result = dato1 / dato2;
-          document.getElementById("resultado").innerHTML = `Corriente: ${result}`
-          break;
-
-        case "3":
-          result = dato1 * dato2;
-          document.getElementById("resultado").innerHTML = `Voltaje: ${result}`
-          break;
-      }
-    });
+    calculardirecto()
   }
 });
