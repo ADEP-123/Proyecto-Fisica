@@ -1,0 +1,84 @@
+/*HEADER*/
+#header{
+    margin: 0px;
+    padding: 0px;
+    height: 10%;
+    width: 100%;
+    border: 1px solid rgb(0, 143, 10);
+    color: white;
+}
+#home{
+    height: 100%;
+    text-align: center;
+    padding-top: 0.5%;
+}
+#home img{
+        height: 50px;
+    width: 50px;
+}
+#home img:hover{
+    border: 1px solid white;
+    transition: all 0.8s ease;
+}
+#tittle{
+    text-align: center;
+    padding: 1%;
+}
+#accesos{
+    text-align: right;
+    padding: 1%;
+    
+}
+#accesos button{
+    font-size: smaller;
+}
+/*FIN HEADER*/
+
+
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.cuerpo{
+    padding-top: 5em;
+}
+
+table{
+    color: white;
+}
+
+#resistencia1 #resistencia2{
+    color: white;
+}
+label{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+img{
+    width: 100%;
+}
+
+#footer{
+    height: 12%;
+    border: 1px solid rgb(11, 207, 24);
+    color: white;
+    text-align: left;
+}
+select{
+    background-color: black;
+    color: rgb(0, 143, 76);
+    border: 1px solid rgb(0, 143, 76);
+}
+
+.frame {
+    width: 530px;
+    height: 337px;
+}

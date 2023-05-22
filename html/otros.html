@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <!--Css propio-->
+    <link rel="stylesheet" href="../css/otros.css">
+    <title>otras herramientas</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <!--Barra de navegacion-->
+        <div class="row" id="header">
+            <div class="col-1" id="home">
+                <a href="../index.html">
+                    <img src="../img/home.png">
+                </a>
+
+            </div>
+            <div class="col-8" id="tittle">
+                <h2>CALCULADORA CAPACITANCIA</h2>
+            </div>
+            <div class="col" id="accesos">
+                <a href="leyOhm.html"><button type="button" class="btn btn-outline-secondary">Ley de ohm</button></a>
+                <a href="resistencia.html"><button type="button" class="btn btn-outline-danger">Resistencia</button></a>
+                <a href="capacitancia.html"><button type="button" class="btn btn-outline-primary">Capacitancia</button></a>
+            </div>
+        </div>
+        <!--Barra de navegacion-->
+
+        <div class="row cuerpo" >
+            
+            <div class="col-4">             <!--RESISTENCIAS-->
+                <h2>Suma de resistencias</h2>
+                <br>
+                <label for="tipoResistencias">Ingrese el tipo de sumatoria</label>
+                <select id="tipoResistencias">
+                    <option value="0">Seleccione el tipo operacion</option>
+                    <option value="1">Resistencias en serie</option>
+                    <option value="2">Resistencias en paralelo</option>
+                </select>
+
+                <br>
+                <br><br>
+
+                <div id="pegarResistencias"></div>
+            </div> 
+
+
+
+
+
+            <div class="col-4">             <!--CONDENSADORES-->
+                <h2>Suma de condensadores</h2>
+                <br>
+                <label for="tipoCondensadores">Ingrese el tipo de sumatoria</label>
+                <select id="tipoCondensadores">
+                    <option value="0">Seleccione el tipo operacion</option>
+                    <option value="1">Condensadores en paralelo</option>
+                    <option value="2">Condensadores en serie</option>
+                </select>
+
+                <br>
+                <br><br>
+
+                <div id="pegarCondensadores"></div>
+            </div>
+
+
+
+            <div class="col-4">             <!--% DE EROR-->
+                <h2>Porcentaje de error</h2>
+                <br>
+                <select id="desplegar">
+                    <option value="0">Seleccione el tipo operacion</option>
+                    <option value="1">Desplegar</option>
+                    <option value="2">Cerrar</option>
+                </select>
+                <br><br><br>
+                <table class="table table-bordered" id="tableporcerror">
+                    
+                </table>
+            </div>
+            
+
+        </div>
+        
+        <div class="row cuerpo2">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <h1>Herramientas adicionales</h1>
+                <select id="herrAdic">
+                    <option value="0">Selecciona la herramienta</option>
+                    <option value="1">Simulador Campo Electrico</option>
+                    <option value="2">Simulador Capacitancia</option>
+                    <option value="3">Simulador Resistencia y resisitividad</option>
+                </select>
+                <hr>
+                </div>
+                <div class="col-3"></div>
+                
+            </div>
+            <div class="row">
+                <div class="col" id="iframecontenedor">
+                    
+                </div>
+                
+            </div>
+            
+            
+        </div>
+
+    </div>
+
+    <div class="row" id="footer">
+        <div class="row">
+          <h2>Autores:</h2>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <p>Andres David Elizalde Peralta: 01220371068</p>
+          </div>
+          <div class="col">
+            <p>Santiago Alexander Opsina Pabon: 01220371058</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Script bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <!--js propio-->
+    <script src="../js/otros.js"></script>
+</body>
+
+</html>
