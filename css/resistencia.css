@@ -75,3 +75,10 @@ width: 100%;
 .formula{
     width: 50%;
 }
+
+#footer{
+    height: 12%;
+    border: 1px solid rgb(255, 0, 0);
+    color: white;
+    text-align: left;
+}

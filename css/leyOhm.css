@@ -3,7 +3,7 @@ body{
     font-family: 'Oswald', sans-serif;
     color: white;
 }
-.container{
+.container-fluid{
     height: 100vh;
     
 }
@@ -11,7 +11,7 @@ body{
 #header{
     margin: 0px;
     padding: 0px;
-    height: 10%;
+    height: 12%;
     width: 100%;
     border: 1px solid rgb(200, 185, 185);
     color: white;
@@ -54,4 +54,14 @@ body{
 }
 button:hover{
     transition: all 0.7s ease;
+}
+
+#cuerpo{
+    height: 76%;
+}
+
+#footer{
+    height: 12%;
+    border: 1px solid rgb(200, 185, 185);
+    color: white;
 }
