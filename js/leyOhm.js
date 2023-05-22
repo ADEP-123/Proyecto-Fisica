@@ -42,6 +42,10 @@ valor.addEventListener("click", (e) => {
   if (valor.value === "1" || valor.value === "2") {
     tipo.removeAttribute("disabled");
   } else if (valor.value === "3") {
+    tipo.setAttribute("disabled", "true");
+    tipo.value = "1";
+    document.getElementById("chartCont").setAttribute("hidden", "true");
+    document.getElementById("imgleyohm").removeAttribute("hidden");
     datSec.innerHTML = `
     <table>
         <thead>
