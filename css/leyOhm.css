@@ -48,8 +48,7 @@ body{
     padding: 1%;
 }
 #chartCont{
-    width: 10%px;
-    height: 10%px;
+    height: 320px;
     background-color: white;
 }
 button:hover{
